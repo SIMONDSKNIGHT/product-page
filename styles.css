@@ -2,7 +2,11 @@
     margin:0;
     padding:0;
     font-family:sans-serif;
+    box-sizing:border-box;
   
+  }
+  #page-wrapper {
+    position: relative;
   }
   .grid {
     display: flex;
@@ -23,3 +27,17 @@
       flex-wrap: wrap;
     }
   }
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
